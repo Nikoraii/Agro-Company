@@ -1,0 +1,121 @@
+html {
+    background-color: rgb(171, 129, 77);
+}
+
+.navbar {
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.189);
+    color: white;
+}
+
+.nav li a {
+    color: rgb(171, 171, 171)!important;
+}
+
+.nav li a:hover {
+    color: white!important;
+}
+
+.navbar a {
+    border: 1px solid black;
+    color: white!important;
+}
+
+.navbar ul {
+    border: 1px solid purple;
+}
+
+.navbar ul li a {
+    border: 1px solid green;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../pictures/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 115vh;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron .container {
+    border: 1px solid brown;
+    margin-top: 10rem;
+}
+
+#about-us {
+    height: 10rem;
+    background-color: rgb(1, 167, 1);
+    transform: translate(0%, -55%);
+    border-radius: 2rem;
+    border: 1px solid white;
+    z-index: 100!important;
+    color: white;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+#products {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+/* #products .row .col {
+    border: 1px solid black;
+} */
+
+#products .row {
+    /* border-bottom: 1px solid rgba(1, 161, 1); */
+    padding: 5px 0 5px 0;
+    overflow-x: hidden;
+}
+
+#products img {
+    min-width: 100%;
+}
+
+#products h2 {
+    color: rgb(9, 148, 9);
+    margin-top: -3rem;
+}
+
+#products h3 {
+    border-top: 1px solid green;
+    padding-top: 2rem;
+    color: rgb(9, 148, 9);
+}
+
+#products p {
+    margin-top: 2rem;
+    /* border: 2px solid black;
+    border-radius: 5px; */
+}
+
+#home a {
+    font-size: 1.8rem;
+}
+
+/* .display-1 {
+    mix-blend-mode: screen;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 7vw!important;
+    font-weight: bold!important;
+    border-radius: 2rem;
+} */
+
+#products_real {
+    text-align: center;
+}
+
+.carousel img {
+    width: 100vw;
+}
+
+#products_real div {
+    border: 1px solid red;
+}
