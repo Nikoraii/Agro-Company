@@ -3,9 +3,9 @@ html {
 }
 
 .navbar {
-    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.189);
     color: white;
+    border-bottom: 2px solid rgb(3, 119, 3);
 }
 
 .nav li a {
@@ -17,16 +17,7 @@ html {
 }
 
 .navbar a {
-    border: 1px solid black;
     color: white!important;
-}
-
-.navbar ul {
-    border: 1px solid purple;
-}
-
-.navbar ul li a {
-    border: 1px solid green;
 }
 
 .jumbotron {
@@ -40,7 +31,6 @@ html {
 }
 
 .jumbotron .container {
-    border: 1px solid brown;
     margin-top: 10rem;
 }
 
@@ -61,12 +51,8 @@ html {
     text-align: center;
 }
 
-/* #products .row .col {
-    border: 1px solid black;
-} */
 
 #products .row {
-    /* border-bottom: 1px solid rgba(1, 161, 1); */
     padding: 5px 0 5px 0;
     overflow-x: hidden;
 }
@@ -88,25 +74,11 @@ html {
 
 #products p {
     margin-top: 2rem;
-    /* border: 2px solid black;
-    border-radius: 5px; */
 }
 
 #home a {
     font-size: 1.8rem;
 }
-
-/* .display-1 {
-    mix-blend-mode: screen;
-    background-color: white;
-    color: black;
-    padding: 10px;
-    margin: 0 auto;
-    width: 75%;
-    font-size: 7vw!important;
-    font-weight: bold!important;
-    border-radius: 2rem;
-} */
 
 #products_real {
     text-align: center;
@@ -114,8 +86,4 @@ html {
 
 .carousel img {
     width: 100vw;
-}
-
-#products_real div {
-    border: 1px solid red;
 }
