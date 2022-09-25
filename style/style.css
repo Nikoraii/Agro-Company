@@ -1,5 +1,6 @@
 html {
-    background-color: rgb(171, 129, 77);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -8,12 +9,31 @@ html {
     border-bottom: 2px solid rgb(3, 119, 3);
 }
 
-.nav li a {
-    color: rgb(171, 171, 171)!important;
+.my-2 {
+    background-color: green;
 }
 
-.nav li a:hover {
+nav .nav li a {
+    color: rgb(171, 171, 171)!important;
+    transition: .3s;
+}
+
+nav .nav li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    transition: width .3s;
+}
+
+nav .nav li a:hover {
     color: white!important;
+}
+
+nav .nav li a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 .navbar a {
@@ -36,7 +56,7 @@ html {
 
 #about-us {
     height: 10rem;
-    background-color: rgb(1, 167, 1);
+    background-color: #148f14;
     transform: translate(0%, -55%);
     border-radius: 2rem;
     border: 1px solid white;
@@ -46,44 +66,153 @@ html {
     padding-top: 1.5rem;
 }
 
-#products {
+#about-us p {
+    font-size: 1.2em;
+}
+
+#info {
     /* border: 1px solid red; */
     text-align: center;
 }
 
 
-#products .row {
+#info .row {
     padding: 5px 0 5px 0;
     overflow-x: hidden;
 }
 
-#products img {
-    min-width: 100%;
+#info img {
+    /* min-width: 100%; */
+    /* border: 1px solid green; */
 }
 
-#products h2 {
+/* #info h2 {
     color: rgb(9, 148, 9);
     margin-top: -3rem;
-}
+} */
 
-#products h3 {
-    border-top: 1px solid green;
+#info h3 {
+    border-top: 2px solid green;
     padding-top: 2rem;
     color: rgb(9, 148, 9);
+    font-weight: bold;
+    font-size: 3.3em;
 }
 
-#products p {
+#info p {
     margin-top: 2rem;
+    font-size: 1.7em;
 }
 
 #home a {
     font-size: 1.8rem;
 }
 
-#products_real {
+.card-columns .card {
+    max-width: 90%;
+}
+
+.card-columns img {
+    max-height: 35vw;
+    object-fit:cover;
+    border-radius: 0.8em!important;
+    border-bottom: 1px solid rgb(1, 167, 1);
+}
+
+#products {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+#products h2 {
+    color: rgb(9, 148, 9);
+    margin-bottom: 1em;
+    border-top: 1px solid green;
+    padding-top: 0.5em;
+}
+
+#products h4 {
+    font-size: 2em;
+}
+
+#products p {
+    font-size: 1.2em;
+}
+
+#products a {
+    text-decoration: none;
+    color: #148f14;
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: .5s;
+}
+
+#products a:hover {
+    background-color: #148f14;
+    color: white;
+    border-radius: 0.4em;
+}
+
+img {
+    max-height: 35rem;
+}
+
+.card-columns > .card {
+    border: 2px solid  rgb(1, 167, 1)!important;
+    border-radius: 1em!important;
+}
+
+.card-columns > .card h4 {
+    color: green;
+    font-weight: bold;
+}
+
+#contact {
+    margin-top: 3rem;
     text-align: center;
 }
 
-.carousel img {
-    width: 100vw;
+#contact .form-group {
+    text-align: left;
+}
+
+#contact .container {
+    border: 1px solid #769523;
+    border-radius: 1em;
+}
+
+#contact label {
+    font-size: 1.8em;
+}
+
+#contact button {
+    margin-bottom: 1em;
+    font-size: 1.4em;
+}
+
+#offer {
+    background-color: #148f14;
+    text-align: center;
+    color: white;
+    margin: 5em 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#offer .display-4 {
+    margin-bottom: -0.5em;
+}
+
+#offer .display-1 {
+    margin-bottom: -0.2em;
+}
+
+footer a {
+    color: rgb(167, 165, 165);
+    transition: .3s;
+}
+
+footer a:hover {
+    color:rgb(1, 167, 1);
 }
