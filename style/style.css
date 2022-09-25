@@ -81,16 +81,6 @@ nav .nav li a:hover::after {
     overflow-x: hidden;
 }
 
-#info img {
-    /* min-width: 100%; */
-    /* border: 1px solid green; */
-}
-
-/* #info h2 {
-    color: rgb(9, 148, 9);
-    margin-top: -3rem;
-} */
-
 #info h3 {
     border-top: 2px solid green;
     padding-top: 2rem;
